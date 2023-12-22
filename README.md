@@ -1,1 +1,3 @@
-# repos
+Please open the solution inside the e-commerce API folder containing two projects that was developed using Visual Studio 2022 community edition:
+1) e-commerce API which is the start up project that is developed using asp .net core 6 web api. This project calls the HTTP POST endpoint called Checkout which accepts list of string of watches as request and returns the total prices of watches in response as a JSON result. Run the project using run button to open the project in the browser that uses swagger. Enter the request body with list of strings example :  "001", "002", "003", "004", the response will return the total price as Json Result. The file named watchService.cs has a method named GetAllWatches() that creates the list of watches with default values for the model.
+2) APITestProject which has one test case that has reference to the e-commerce API project. Run this from the Test Explorer to see if the test case is passed.
